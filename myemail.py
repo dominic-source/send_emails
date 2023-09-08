@@ -7,7 +7,7 @@ receiver_email = "morbachinonso@gmail.con"
 smtp_server = "smtp.gmail.com"
 smtp_port = 465
 smtp_username = "Chinonso Morba"
-smtp_password = "5927754681"
+smtp_password = ""
 
 # Create the email message
 message = MIMEMultipart()
