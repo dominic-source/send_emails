@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 sender_email = "chinonsodomnic@gmail.com"
-receiver_email = "morbachinonso@gmail.con"
+receiver_email = "dominicmorba@gmail.con"
 smtp_server = "smtp.gmail.com"
 smtp_port = 465
 smtp_username = "Chinonso Morba"
