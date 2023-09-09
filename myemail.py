@@ -20,7 +20,7 @@ smtp_password = password
 message = MIMEMultipart()
 message['From'] = sender_email
 message['To'] = receiver_email
-message['Subjest'] = "Testing cutting edge tech"
+message['Subject'] = "Testing cutting edge tech"
 
 # Body of the email
 body = "This is me testing the smtp server and improving some of my skills"
@@ -29,8 +29,8 @@ message.attach(MIMEText(body, 'plain'))
 server = None
 # setup the server and send the email
 try:
-    server = smtplib.SMTP(smtp_server, smtp_port)
-    server.starttls()
+    server = smtplib.SMTP_SSL(smtp_server, smtp_port)
+
     server.login(smtp_username, smtp_password)
     
     text = message.as_string()
