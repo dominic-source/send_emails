@@ -7,21 +7,20 @@ from dotenv import load_dotenv
 # Load environmental variables
 load_dotenv()
 
-password = os.getenv("PASSWORD")
+password = os.getenv("GTP")
 
 sender_email = "chinonsodomnic@gmail.com"
-receiver_email = "dominicmorba@gmail.con"
+receiver_email = "morbachinonso@gmail.com"
 smtp_server = "smtp.gmail.com"
 smtp_port = 465
-smtp_username = "Chinonso Morba"
+smtp_username = "chinonsodomnic@gmail.com"
 smtp_password = password
 
 # Create the email message
 message = MIMEMultipart()
 message['From'] = sender_email
 message['To'] = receiver_email
-message['Subject'] = "Testing cutting edge tech"
-
+message['Subject'] = "Testing cutting edge technology"
 # Body of the email
 body = "This is me testing the smtp server and improving some of my skills"
 message.attach(MIMEText(body, 'plain'))
