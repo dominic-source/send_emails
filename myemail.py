@@ -1,13 +1,20 @@
+import os
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from dotenv import load_dotenv
+
+# Load environmental variables
+load_dotenv()
+
+password = os.getenv("PASSWORD")
 
 sender_email = "chinonsodomnic@gmail.com"
 receiver_email = "dominicmorba@gmail.con"
 smtp_server = "smtp.gmail.com"
 smtp_port = 465
 smtp_username = "Chinonso Morba"
-smtp_password = ""
+smtp_password = password
 
 # Create the email message
 message = MIMEMultipart()
