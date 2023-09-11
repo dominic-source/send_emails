@@ -1,3 +1,7 @@
-**This code will send emails to users**
-# How to run the code
-> ./email
+# How to send emails using this short method
+
+## Requirements
+
+## What you need to know
+
+## How to start sending
