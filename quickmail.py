@@ -6,7 +6,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def mailSender(sub= None, body=None, addr="smtp.gmail.com", pas=None, 
-               sen="chinonsodomnic@gmail.com", rec="dominicmorba@gmail.com", port=465):
+               sen=None, rec=None, port=465):
+    if (sen is None or rec is None):
+        return
     x = 0
     # load environmental variables
     load_dotenv()
@@ -50,4 +52,5 @@ def mailSender(sub= None, body=None, addr="smtp.gmail.com", pas=None,
             print("I am working hard 😎")
         x += 1
 
-mailSender()
+# test me
+mailSender(sen="chinonsodomnic@gmail.com", rec="dominicmorba@gmail.com")
