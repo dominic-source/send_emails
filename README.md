@@ -29,10 +29,10 @@
 * sen=None
 * rec=None
 * port=465
-
-They all have default value which are listed above, however, the sender address (sen),
+>
+> They all have default value which are listed above, however, the sender address (sen),
 the receiver address (rec), the password (pas), are strictly required.
-The Subject (sub) and body are also needed.
-The addr is defaulted to "smtp.gmail.com" and the port is defaulted to "465" these values should not be changed.
+> The Subject (sub) and body are also needed.
+> The addr is defaulted to "smtp.gmail.com" and the port is defaulted to "465" these values should not be changed.
 
-YOU are advised never to push your password into any platform.
+**YOU are advised never to push your password into any platform.**
