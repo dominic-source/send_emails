@@ -53,4 +53,4 @@ def mailSender(sub= None, body=None, addr="smtp.gmail.com", pas=None,
         x += 1
 
 # test me
-mailSender(sen="chinonsodomnic@gmail.com", rec="dominicmorba@gmail.com")
+mailSender(sen="chinonsodomnic@gmail.com", rec="dominicmorba@gmail.com", pas=None)
